@@ -1,0 +1,10 @@
+/*OJO, al importar el file va sin _bajo*/
+
+@import "./variables.scss";
+
+/*OJO, los selectores van separados de coma, me pasó lo mismo con ejercicios de ids y mixins*/
+
+nav, footer {
+    color: $color-primario;
+    background: $color-secundario;
+}
